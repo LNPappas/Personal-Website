@@ -5,6 +5,9 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 export default withBundleAnalyzer({
+  basePath: "/next-website",
+  assetPrefix: "/next-website/",
+  output: "export",
   reactStrictMode: false,
   eslint: {
     ignoreDuringBuilds: true,
