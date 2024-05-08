@@ -3,7 +3,7 @@ import classes from './RecordPlayer.module.css';
 
 export default function RecordPlayer() {
   return (
-    <Flex justify="center" align="center" pos="relative">
+    <Flex justify="center" align="center" pos="relative" mt={300}>
       <Image
         src="/personal-website/Record.png"
         alt="Record"

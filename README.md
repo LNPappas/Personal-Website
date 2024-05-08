@@ -1,5 +1,7 @@
 # Personal Next.js Website
 
+View Here: https://lnpappas.github.io/personal-website/
+
 This website uses [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
 
 ## npm scripts
