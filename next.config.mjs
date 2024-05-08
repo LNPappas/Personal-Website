@@ -5,9 +5,9 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 export default withBundleAnalyzer({
-  basePath: "/personal-website",
-  assetPrefix: "/personal-website/",
-  output: "export",
+  basePath: '/personal-website',
+  assetPrefix: '/personal-website/',
+  output: 'export',
   reactStrictMode: false,
   eslint: {
     ignoreDuringBuilds: true,
