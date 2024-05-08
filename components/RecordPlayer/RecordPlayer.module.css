@@ -2,7 +2,7 @@
   z-index: 2;
   width: 350px;
   height: 350px;
-  animation: recordRotation 20s infinite linear;
+  animation: record-rotation 20s infinite linear;
   animation-delay: 4s;
   margin-right: 135px;
 }
@@ -11,8 +11,8 @@
   z-index: 3;
   width: 500px;
   height: 400px;
+  animation: record-player-needle-rotation 4s linear forwards;
   animation-duration: 4s;
-  animation: recordPlayerNeedleRotation 4s linear forwards;
   transform-origin: top right;
   overflow: hidden;
   margin-left: 25px;
@@ -24,16 +24,17 @@
   height: 440px;
 }
 
-@keyframes recordRotation {
+@keyframes record-rotation {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(359deg);
   }
 }
 
-@keyframes recordPlayerNeedleRotation {
+@keyframes record-player-needle-rotation {
   from {
     transform: rotate(0deg);
   }
