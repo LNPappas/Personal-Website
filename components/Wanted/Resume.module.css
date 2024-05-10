@@ -1,0 +1,13 @@
+.modalBackground {
+  background-image: url('/personal-website/wanted.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modalHeader {
+  background-image: url('/personal-website/wanted.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

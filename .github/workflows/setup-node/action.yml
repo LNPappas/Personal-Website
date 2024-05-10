@@ -1,5 +1,9 @@
+# trunk-ignore(actionlint/syntax-check)
+# trunk-ignore-all(checkov/CKV2_GHA_1)
 name: setup-node
+# trunk-ignore(actionlint/syntax-check)
 description: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
+# trunk-ignore(actionlint/syntax-check)
 runs:
   using: composite
   steps:

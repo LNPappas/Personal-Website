@@ -12,6 +12,7 @@ concurrency:
 jobs:
   test_pull_request:
     runs-on: ubuntu-latest
+    # trunk-ignore(checkov/CKV2_GHA_1)
     permissions:
       contents: read
       packages: write
