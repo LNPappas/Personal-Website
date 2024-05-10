@@ -5,9 +5,9 @@ import { Modal, Button, Group } from '@mantine/core';
 import { IconBrandLinkedin, IconBrandGithub, IconFileTypePdf } from '@tabler/icons-react';
 import Link from 'next/link';
 import Resume from './Resume';
-import classes from './Resume.module.css';
+import classes from './ResumeModal.module.css';
 
-export default function Wanted() {
+export default function ResumeModal() {
   const [opened, { open, close }] = useDisclosure(false);
 
   return (
@@ -17,12 +17,11 @@ export default function Wanted() {
         onClose={close}
         centered
         size={1000}
-        mb="100px"
         classNames={{ content: classes.modalBackground, header: classes.modalHeader }}
       >
         <Resume />
       </Modal>
-      <Group>
+      <Group justify="center" align="center">
         <Link href="https://www.linkedin.com/in/lauren-n-pappas/" passHref>
           <Button leftSection={<IconBrandLinkedin size={18} />}>LinkedIn</Button>
         </Link>
